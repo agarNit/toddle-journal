@@ -37,7 +37,7 @@ class Database:
             output.append({
                 'id': student[0],
                 'student_username' : student[1],
-                'email' : student[3]
+                'email' : student[2]
             })
         return output
 
